@@ -1,0 +1,91 @@
+body
+{
+    background-image: url("/images/back.svg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header
+{
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Croissant One', cursive;
+    color: #000000;
+}
+
+.form
+{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+input
+{
+    height: 60px;
+    background-color: #000000;
+    color:white;
+    width: 25%;
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+.links
+{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.submit
+{
+    width: 10%;
+    height: 64px;
+}
+
+.tasks
+{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.items
+{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: none;
+}
+
+p{
+    padding: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color:white;
+    border: 2px solid white;
+    width: 34%;
+}
+
+@media only screen and (max-width : 768px) {
+    p{
+        font-size: 15px;
+    }
+
+    .form{
+        font-size: 10px;
+    }
+}

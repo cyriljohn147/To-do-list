@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+
+
+<form class="form" action="/daily" method="post">
+    <input class="text" type="text" name="task">
+    <input class="submit" type="submit" value="add">
+</form>
+
+<div class="tasks">
+    <% if (locals.tasks) { %>
+        <% tasks.forEach(function(item) {%>
+        <div class="items">
+            <p><%= item %></p>
+        </div>
+    <% });} %>
+</div>
+
+</body>
+</html>
