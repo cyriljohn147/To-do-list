@@ -88,4 +88,20 @@ p{
     .form{
         font-size: 10px;
     }
+
+    .links
+    {
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+    .header
+    {
+        width: 60%;
+    }
+
+    .submit
+    {
+        width: 40px;
+    }
 }
